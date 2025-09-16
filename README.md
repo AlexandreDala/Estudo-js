@@ -1,2 +1,2 @@
-# Estudo-js
+# Estudo/aprendre-js
 para estudar JS
