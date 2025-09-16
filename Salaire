@@ -1,0 +1,23 @@
+// Salairebrut 3000
+// Chiffre d'affaire 10000
+// Commission=10000×(1005​)=10000×0,05=500€
+// Salaire net=3000×(1−10020​)=3000×(1−0,20)=3000×0,80=2400€
+const prompt = require("prompt-sync")();
+
+let Nom = prompt("Quelle est votre  : ");
+let salairebrut = Number(prompt("Quelle est votre salaire brut : "));
+let chiffreda = Number(prompt("Quelle est votre Chiffre d'affaire réalisé dans les mois : "));
+
+const porcentagech = 0.5;
+
+console.log("Employé : " + Nom);
+
+net = salairebrut * (1-(20/100));
+
+comissionch = chiffreda * (5/100);
+
+salairetotal = net + comissionch;
+
+console.log("Salaire net : " + net);
+console.log("Comission : " + comissionch);
+console.log("Salaire Total : ");
